@@ -11,7 +11,7 @@ pipeline {
     }
     stage('Use a script') {
       steps {
-        sh './script_thing.sh'
+        sh './hi_there.sh'
       }
     }
   }
