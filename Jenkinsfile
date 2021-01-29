@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image localhost:5000/test_gss }
+    docker { image 'localhost:5000/test_gss' }
   }
 
   stages{
