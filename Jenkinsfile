@@ -9,5 +9,10 @@ pipeline {
         echo "Hello from GitHub"
       }
     }
+    stage('Use a script') {
+      steps {
+        sh './script_thing.sh'
+      }
+    }
   }
 }
